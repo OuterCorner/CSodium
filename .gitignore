@@ -1,0 +1,3 @@
+libsodium-*.tar.gz
+.build-CSodium
+.swiftpm
