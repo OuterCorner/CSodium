@@ -31,6 +31,8 @@ echo "that didn't exist in the specified minimum iOS version level."
 echo "They can be safely ignored."
 echo
 
+LIBSODIUM_FULL_BUILD=1
+
 if [ -z "$LIBSODIUM_FULL_BUILD" ]; then
   export LIBSODIUM_ENABLE_MINIMAL_FLAG="--enable-minimal"
 else
